@@ -1,0 +1,12 @@
+
+#忽略任何目录下的文件夹
+[Bb]in/
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+[Tt]est/
+[Tt]emp/
+[Dd]ist/
+[Bb]uild/
+[Ll]og/
+Properties/
