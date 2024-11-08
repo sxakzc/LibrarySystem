@@ -2,9 +2,6 @@
 using System;
 using ConsoleApp.Data;
 using ConsoleApp.Models;
-//git修改测试
-//git修改测试2
-//git修改测试3
 namespace ConsoleApp
 {
     class Program
@@ -55,7 +52,6 @@ namespace ConsoleApp
             var author = Console.ReadLine();
             Console.Write("请输入ISBN: ");
             var isbn = Console.ReadLine();
-
             var book = new Book { Title = title, Author = author, ISBN = isbn };
             bookRepository.AddBook(book);
             Console.WriteLine("图书添加成功。");

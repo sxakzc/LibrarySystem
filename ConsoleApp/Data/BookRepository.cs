@@ -22,7 +22,7 @@ namespace ConsoleApp.Data
         {
             if (!File.Exists(_filePath))
             {
-                return new List<Book>();//为什么要返回一个空的List<book>
+                return new List<Book>();//防止空指针异常
             }
 
             var lines = File.ReadAllLines(_filePath);
