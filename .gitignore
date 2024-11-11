@@ -1,4 +1,7 @@
-
+#忽略以下文件
+books.txt
+borrowers.txt
+librarians.txt
 #忽略任何目录下的文件夹
 [Bb]in/
 [Dd]ebug/
@@ -10,4 +13,3 @@
 [Bb]uild/
 [Ll]og/
 Properties/
-books.txt
